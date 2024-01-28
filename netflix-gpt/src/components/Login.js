@@ -11,19 +11,19 @@ const Login = () => {
           alt="bg-img"
         />
       </div>
-      <form className="absolute  bg-black top-1/3 left-1/3 opacity-80 rounded-sm w-60 p-6">
-        <h1 className="text-white py-2 my-2 font-bold text-xl ">Sign In</h1>
+      <form className="absolute text-white bg-black opacity-85 rounded-sm w-3/12 p-6 top-1/4 mx-auto right-0 left-0">
+        <h1 className=" py-4 my-2 font-bold text-xl ">Sign In</h1>
         <input
           type="text"
           placeholder="Email Address"
-          className="py-1 px-2 my-2 rounded-sm w-full bg-gray-800 text-white"
+          className="p-2 my-4 rounded-sm w-full bg-gray-900"
         />
         <input
           type="password"
           placeholder="Password"
-          className="py-1 px-2 my-2 rounded-sm w-full bg-slate-800 text-white"
+          className="p-2 my-4 rounded-sm w-full bg-gray-900"
         />
-        <button className="text-white bg-red-700 py-1 my-2 rounded-sm w-full hover:bg-red-800">
+        <button className="p-2 my-6 text-white bg-red-700 2 rounded-sm w-full hover:bg-red-800">
           Sign In
         </button>
         <div className="py-2 my-2">
